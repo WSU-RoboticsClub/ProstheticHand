@@ -1,0 +1,46 @@
+{
+  "name": "openbci",
+  "version": "3.0.0",
+  "description": "The official Node.js SDK for the all OpenBCI Biosensor Boards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'PASS: Verified all dependencies could be installed'"
+  },
+  "keywords": [
+    "openbci",
+    "openbci-node"
+  ],
+  "author": "AJ Keller <aj@pushtheworld.us> (www.openbci.com)",
+  "license": "MIT",
+  "dependencies": {
+    "openbci-cyton": "^1.0.7",
+    "openbci-ganglion": "^1.0.0",
+    "openbci-utilities": "^0.3.2",
+    "openbci-wifi": "^0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openbci/openbci_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openbci/openbci_nodejs/issues"
+  },
+  "homepage": "https://github.com/openbci/openbci_nodejs#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "semistandard": {
+    "globals": [
+      "describe",
+      "xdescribe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "should"
+    ]
+  }
+}

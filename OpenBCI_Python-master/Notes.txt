@@ -1,0 +1,13 @@
+http://openbci.com/index.php/downloads
+
+https://github.com/OpenBCI_Python/archive/master.zip
+
+In the file:
+open_bci_v3.py
+Lines 347, 368
+commented out:
+c = self.ser.read().decode('utf-8', errors='replace') # we're supposed to get UTF8 text, but the board might behave otherwise
+and replaced with:
+c = self.ser.read()
+
+
