@@ -1,6 +1,6 @@
 # ProstheticHand
-This project has morphed into a hand/BMI project. Thank you to all who helped create the hand in the first place.
-Our objective is for the prosthetic hand to clench when ours does by detecting our motion through the BCI.
+This project has morphed into a hand/EEG project. Thank you to all who helped create the hand in the first place.
+Our objective is for the prosthetic hand to clench when ours does by detecting our motion through the EEG.
   Step one - aquire timestamped data from BMI and Muscle detection interfaces while clenching/unclenching hand.
   Step two - create or use a machine learning algorithm that uses this data to predict hand state / state change with
     BMI data as the input.
